@@ -1,0 +1,576 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+  font-size: 1em;
+}
+
+.navDiv {
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+ width: 100%;
+  height:1000px;
+  background-image: url('pictureData/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+
+}
+
+.background-overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #058ACC;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
+.navbar,
+.navdivtext {
+  position: relative;
+  z-index: 2;
+}
+.text0{
+  position: absolute;
+  top:245px;
+ left:80px
+}
+.button-container{
+  position:absolute;
+  top: 580px;
+   left: 80px;
+}
+.button-container button{
+  width:236px;
+  height:52px;
+  border: none;
+  color: white;
+  text-align: center;
+}
+.wholeDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img_container{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+.contentDiv{
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.contentDiv .container {
+  box-sizing: border-box;
+  width: 100%; /* Make the container cover the entire width of its parent (.contentDiv) */
+  max-width: 100%;
+  margin: 0; /* Center the container horizontally */
+  padding: 0;
+}
+.container_7{
+  width:94%;
+  margin-left: auto;
+}
+.heading {
+
+  font-family: 'Jost';
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 69.36px;
+  letter-spacing: 0.2 px;
+}
+
+.summary {
+  font-family: 'Jost';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34.68px;
+  letter-spacing: 0.2px;
+}
+
+.hed {
+  Font: Jost;
+  font-Weight: 600;
+  font-Size: 20px;
+  Line-height: 28.9px;
+  letter-spacing: 0.2px;
+}
+.partner{
+  width: 94%;
+}
+
+.sub_hed {
+  Font: Jost;
+  font-Weight: 300;
+  font-Size: 14px;
+  Line-height: 20.23px;
+  letter-spacing: 0.2px;
+}
+.navbar-brand{
+  margin-left: 80px;
+}
+.navtext {
+  Font: Jost;
+  font-Weight: 400;
+  font-Size: 18px;
+  Line-height: 26.23px;
+  letter-spacing: 0.2px;
+  margin-right: 60px;
+}
+
+.navsum {
+  Font: Jost;
+  font-Weight: 500;
+  font-Size: 74px;
+  Line-height: 106.23px;
+  align-content: center;
+  color: #FFFFFF;
+}
+.textline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+}
+.slider_card{
+ width: 28.75rem;
+  height:28.75rem;
+   position: relative;
+    background-image: url('pictureData/Rectangle\ 129.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider_btn_l{
+ width:96px;
+  height: 96px; 
+  position: absolute; 
+  top:30%;
+  left: -15%;
+  z-index: 1;
+}
+.slider_btn_r{
+ width:96px;
+  height: 96px;
+   position: absolute; 
+   top:30%;
+   right: -15%;
+   z-index: 1;
+}
+
+
+.text1 {
+  Font: Jost;
+  font-Weight: 300;
+  font-Size: 16px;
+  Line-height: 20.23px;
+  align-content: center;
+  text-align: center;
+}
+
+.text2 {
+  Font: Jost;
+  font-Weight: 500;
+  font-Size: 36px;
+  Line-height: 52.23px;
+  letter-spacing: 0.2px;
+}
+
+.text3 {
+  Font: Jost;
+  font-Weight: 400;
+  font-Size: 24px;
+  Line-height: 34.68px;
+  letter-spacing: 0.2px;
+  align-content: center;
+}
+
+.date {
+  font-family: 'Jost';
+  font-weight: 300px;
+  font-size: 20px;
+  line-height: 52.68px;
+  letter-spacing: 0.2px;
+}
+
+.contacttext {
+  font-family: 'Jost';
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  align-content: center;
+}
+
+.box_col_shad {
+  width: 35rem;
+  height: 55rem;
+  border: 1px solid gray;
+  border-bottom: 5px solid brown;
+}
+
+
+.box_col_shad1 {
+  width: 35rem;
+  height: 55rem;
+  border: 1px solid gray;
+  border-bottom: 5px solid orange;
+}
+
+.bar {
+  width: 100px;
+  height: 17px;
+}
+
+.textcard {
+  width: 25rem;
+  height: 31.25rem;
+}
+
+.textbody {
+  width: 25rem;
+  height: 10.75rem;
+}
+
+.section {
+  height: 33.5rem;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 0%;
+  margin-top: auto;
+
+}
+.footerText{
+  Font: Jost;
+  font-Weight: 600;
+  font-Size: 24px;
+  Line-height: 28px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.listtext{
+  font-family: 'Jost';
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.bottom-border-on-small{
+  width:236px;
+ height:52px; 
+ border: 1px solid #0D89CA;
+ background-color: white;
+ color: black;
+}
+
+@media (min-width: 768px) {
+  .oracle {
+    width: 300px;
+    height: 300px;
+  }
+
+  .cloud {
+    width: 300px;
+    height: 300px;
+  }
+
+  .BP {
+    width: 300px;
+    height: 300px;
+  }
+
+  .EP {
+    width: 300px;
+    height: 300px;
+  }
+
+  .part {
+    width: 300px;
+    height: 328px;
+    
+  }
+
+  .bar {
+    width: 150px;
+    height: 17px;
+  }
+}
+@media (max-width: 1500px) and (min-width: 768px) {
+  .navtext {
+    Font: Jost;
+    font-Weight: 400;
+    font-Size: 16px;
+    Line-height: 26.23px;
+    letter-spacing: 0.1px;
+    margin-right: 30px;
+  }
+  .navbar-brand{
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1230px){
+  .offer_box {
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  }
+}
+@media (max-width: 1550px) and (min-width: 970px) {
+ 
+  .offer_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 1460px) and (min-width: 970px) {
+ .img_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+  
+}
+/* @media (max-width: 970px) and (min-width: 514px) {
+  .tCard{
+    margin-left: 30px;
+  }
+
+} */
+
+@media (max-width: 768px) and (min-width: 300px) {
+  .navbar-brand{
+    margin-left: 0px;
+  }
+  .nav-div {
+    background-position: left;
+  }
+  .navsum {
+    Font: Jost;
+    font-Weight: 500;
+    font-Size: 36px;
+    Line-height: 52px;
+    letter-spacing: 0.2px;
+  }
+  .contentDiv{
+    /* margin: 60px; */
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .img_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .image1{
+    margin-top: 10px;
+  }
+  .text0{
+    position: absolute;
+    top:178px;
+   left:15px
+  }
+  .hed {
+    Font: Jost;
+    font-Weight: 600;
+    font-Size: 18px;
+    Line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+  .sub_hed {
+    Font: Jost;
+    font-Weight: 300;
+    font-Size: 14px;
+    Line-height: 20.23px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+  .button-container{
+    position:absolute;
+    top: 400px;
+     left: 15px;
+  }
+  .button-container button{
+    width:152px;
+    height:52px;
+    border: none;
+    color: white;
+    text-align: center;
+  }
+  .slider_card{
+    width: 14.625rem;
+     height: 14.625rem;
+      position: relative;
+       background-image: url('pictureData/Rectangle\ 129.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   .slider_btn_l{
+    width:48px;
+     height: 48px; 
+     position: absolute; 
+     top:30%;
+     left: -25%;
+     z-index: 1;
+   }
+   .slider_btn_r{
+    width:48px;
+     height: 48px;
+      position: absolute; 
+      top:30%;
+      right: -25%;
+      z-index: 1;
+   }
+  
+  .box_col_shad {
+    width: 20rem;
+    height: 33.8125rem;
+    border: 1px solid gray;
+    border-bottom: 5px solid gray;
+  }
+.offer_con{
+  justify-content: center;
+  align-items: center;
+}
+  .oracle {
+    width: 10.5625rem;
+    height: 11.5rem;
+  }
+
+  .cloud {
+    width: 10.5625rem;
+    height: 11.5rem;
+  }
+
+  .BP {
+    width: 10.5625rem;
+    height: 11.5rem;
+  }
+
+  .EP {
+    width: 10.5625rem;
+    height: 11.5rem;
+  }
+  .offer_box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+
+  .part {
+    width: 10.5625rem;
+    height: 12.5rem;
+  }
+
+  .img_box {
+    width: 90px;
+    height: 62px;
+    margin-left: 30px;
+  }
+
+  .bar {
+    width: 84px;
+    height: 9px;
+  }
+
+  .date {
+    font-family: 'Jost';
+    font-weight: 300px;
+    line-height: 23.12px;
+    letter-spacing: 0.2px;
+  }
+  .heading {
+
+    font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.68px;
+    letter-spacing: 0.2 px;
+    text-align: center;
+  }
+  .summary {
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    text-align: left;
+   
+  }
+  .text3 {
+    Font: Jost;
+    font-Weight: 400;
+    font-Size: 16px;
+    Line-height: 23px;
+    letter-spacing: 0.2px;
+    align-content: center;
+  }
+
+  .text2 {
+    Font: Jost;
+    font-Weight: 500;
+    font-Size: 16px;
+    Line-height: 23px;
+    letter-spacing: 0.2px;
+  }
+
+  .textcard {
+    width: 20rem;
+    height: 27.75rem;
+    display: flex;
+    justify-content: center;
+   
+  }
+.bottom-border-on-small{
+  width: 9.375rem;
+  border: none;
+  border-bottom: 1px solid #0D89CA;
+}
+  .textbody {
+    width: 20rem;
+    height: 9.375rem;
+  }
+  .footerText{
+    Font: Jost;
+    font-Weight: 600;
+    font-Size: 18px;
+    Line-height: 28px;
+    letter-spacing: 0.1px;
+    text-align: center;
+  }
+}
